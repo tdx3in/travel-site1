@@ -1,0 +1,74 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : Contact Us
+  subtitle : Contact Details
+  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+
+  # Contact details
+  contact_list:
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
+      
+    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info : "Phone: +880-31-000-000"
+      
+    - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
+      info : "Fax: +880-31-000-000"
+      
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email: hello@meghna.com"
+
+
+  ############################## Contact #############################
+contact:
+  enable: true
+  title: Contact Us
+  subtitle: Contact Details
+  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+
+  # Contact details
+  contact_list:
+    - icon: ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info: "Khaja Road, Bayzid, Chittagong, Bangladesh"
+    - icon: ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info: "Phone: +880-31-000-000"
+    - icon: ti-printer # themify icon pack : https://themify.me/themify-icons
+      info: "Fax: +880-31-000-000"
+    - icon: ti-email # themify icon pack : https://themify.me/themify-icons
+      info: "Email: hello@meghna.com"
+
+  # Contact form
+  contact_form:
+    enable: true
+    form_action: "#" # contact form works with https://formspree.io
+    fields:
+      - name: "First Name"
+        type: text
+        placeholder: "Enter your first name"
+      - name: "Last Name"
+        type: text
+        placeholder: "Enter your last name"
+      - name: "Destination Country"
+        type: text
+        placeholder: "Enter destination country"
+      - name: "Start Date"
+        type: date
+        placeholder: "Select start date"
+      - name: "End Date"
+        type: date
+        placeholder: "Select end date"
+      - name: "Travel Duration"
+        type: text
+        placeholder: "Enter travel duration"
+    submit: "Submit"
+    
+    # Contact form
+#  contact_form:
+#    enable : true
+#    form_action : "#" #contact form works with https://formspree.io
+#    name : "Your Name"
+#    email : "Your Email"
+#    subject : "Subject"
+#    message : "Message"
+#    submit : "Submit"
